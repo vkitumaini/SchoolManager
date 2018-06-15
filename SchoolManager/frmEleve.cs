@@ -32,5 +32,10 @@ namespace SchoolManager
         {
 
         }
+
+        private void frmEleve_Load(object sender, EventArgs e)
+        {
+            metroComboBox5.Focus();
+        }
     }
 }
