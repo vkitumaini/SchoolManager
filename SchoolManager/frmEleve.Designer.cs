@@ -111,6 +111,7 @@
             // 
             // metroComboBox2
             // 
+            this.metroComboBox2.AllowDrop = true;
             this.metroComboBox2.FormattingEnabled = true;
             this.metroComboBox2.ItemHeight = 23;
             this.metroComboBox2.Location = new System.Drawing.Point(118, 291);
@@ -121,6 +122,7 @@
             // 
             // metroComboBox1
             // 
+            this.metroComboBox1.AllowDrop = true;
             this.metroComboBox1.FormattingEnabled = true;
             this.metroComboBox1.ItemHeight = 23;
             this.metroComboBox1.Location = new System.Drawing.Point(118, 252);
@@ -167,7 +169,8 @@
             this.metroTextBo3.CustomButton.Name = "";
             this.metroTextBo3.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.metroTextBo3.CustomButton.Style = MetroFramework.MetroColorStyle.Green;
-            this.metroTextBo3.CustomButton.TabStop=false;
+            this.metroTextBo3.CustomButton.TabIndex = 1;
+            this.metroTextBo3.CustomButton.TabStop = false;
             this.metroTextBo3.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroTextBo3.CustomButton.UseSelectable = true;
             this.metroTextBo3.Lines = new string[] {
@@ -199,6 +202,7 @@
             this.metroTextBo5.CustomButton.Name = "";
             this.metroTextBo5.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.metroTextBo5.CustomButton.Style = MetroFramework.MetroColorStyle.Green;
+            this.metroTextBo5.CustomButton.TabIndex = 1;
             this.metroTextBo5.CustomButton.TabStop = false;
             this.metroTextBo5.CustomButton.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroTextBo5.CustomButton.UseSelectable = true;
@@ -231,6 +235,7 @@
             this.metroTextBox5.CustomButton.Name = "";
             this.metroTextBox5.CustomButton.Size = new System.Drawing.Size(27, 27);
             this.metroTextBox5.CustomButton.Style = MetroFramework.MetroColorStyle.Green;
+            this.metroTextBox5.CustomButton.TabIndex = 1;
             this.metroTextBox5.CustomButton.TabStop = false;
             this.metroTextBox5.CustomButton.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroTextBox5.CustomButton.UseSelectable = true;
@@ -264,7 +269,8 @@
             this.metroTextBox2.CustomButton.Name = "";
             this.metroTextBox2.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.metroTextBox2.CustomButton.Style = MetroFramework.MetroColorStyle.Green;
-            this.metroTextBox2.CustomButton.TabStop=false;
+            this.metroTextBox2.CustomButton.TabIndex = 1;
+            this.metroTextBox2.CustomButton.TabStop = false;
             this.metroTextBox2.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroTextBox2.CustomButton.UseSelectable = true;
             this.metroTextBox2.Lines = new string[0];
@@ -295,6 +301,7 @@
             this.metroTextBox1.CustomButton.Name = "";
             this.metroTextBox1.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.metroTextBox1.CustomButton.Style = MetroFramework.MetroColorStyle.Green;
+            this.metroTextBox1.CustomButton.TabIndex = 1;
             this.metroTextBox1.CustomButton.TabStop = false;
             this.metroTextBox1.CustomButton.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroTextBox1.CustomButton.UseSelectable = true;
@@ -431,6 +438,7 @@
             this.metroTextBox3.CustomButton.Name = "";
             this.metroTextBox3.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.metroTextBox3.CustomButton.Style = MetroFramework.MetroColorStyle.Green;
+            this.metroTextBox3.CustomButton.TabIndex = 1;
             this.metroTextBox3.CustomButton.TabStop = false;
             this.metroTextBox3.CustomButton.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroTextBox3.CustomButton.UseSelectable = true;
@@ -599,6 +607,7 @@
             this.metroTextBox4.CustomButton.Name = "";
             this.metroTextBox4.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.metroTextBox4.CustomButton.Style = MetroFramework.MetroColorStyle.Green;
+            this.metroTextBox4.CustomButton.TabIndex = 1;
             this.metroTextBox4.CustomButton.TabStop = false;
             this.metroTextBox4.CustomButton.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroTextBox4.CustomButton.UseSelectable = true;
@@ -631,6 +640,7 @@
             this.metroTextBox8.CustomButton.Name = "";
             this.metroTextBox8.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.metroTextBox8.CustomButton.Style = MetroFramework.MetroColorStyle.Green;
+            this.metroTextBox8.CustomButton.TabIndex = 1;
             this.metroTextBox8.CustomButton.TabStop = false;
             this.metroTextBox8.CustomButton.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroTextBox8.CustomButton.UseSelectable = true;
@@ -663,6 +673,7 @@
             this.metroTextBox9.CustomButton.Name = "";
             this.metroTextBox9.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.metroTextBox9.CustomButton.Style = MetroFramework.MetroColorStyle.Red;
+            this.metroTextBox9.CustomButton.TabIndex = 1;
             this.metroTextBox9.CustomButton.TabStop = false;
             this.metroTextBox9.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroTextBox9.CustomButton.UseSelectable = true;
@@ -695,6 +706,7 @@
             this.metroTextBox10.CustomButton.Name = "";
             this.metroTextBox10.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.metroTextBox10.CustomButton.Style = MetroFramework.MetroColorStyle.Red;
+            this.metroTextBox10.CustomButton.TabIndex = 1;
             this.metroTextBox10.CustomButton.TabStop = false;
             this.metroTextBox10.CustomButton.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroTextBox10.CustomButton.UseSelectable = true;
@@ -783,6 +795,7 @@
             this.metroTextBox11.CustomButton.Name = "";
             this.metroTextBox11.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.metroTextBox11.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTextBox11.CustomButton.TabIndex = 1;
             this.metroTextBox11.CustomButton.TabStop = false;
             this.metroTextBox11.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.metroTextBox11.CustomButton.UseSelectable = true;
@@ -820,6 +833,7 @@
             this.Name = "frmEleve";
             this.Text = "Ajout Elève";
             this.TransparencyKey = System.Drawing.Color.LavenderBlush;
+            this.Load += new System.EventHandler(this.frmEleve_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
